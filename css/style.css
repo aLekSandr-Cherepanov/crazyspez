@@ -1074,7 +1074,7 @@ display: flex;
     background-color: #9e1b1b;
     font-family: Arial;
     font-size: 16px;
-    color:white;
+    color:white !important;
     display: flex;
     align-items: center;
     text-align: center;
@@ -1713,9 +1713,69 @@ font-weight: bold;
 }
 
 .headh2 {
-
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
 }
 
 .text-centr {
-    
+    text-align: center;
+}
+
+.block-form {
+    margin-bottom: 30px;
+}
+
+.wrapper-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.item-1 {
+    width: 445px;
+    height: 50px;
+    color: white;
+    padding-top: 18px;
+    border-radius: 5px;
+    background-color: #536ccd;
+}
+
+.item-2 {
+    width: 284px;
+    height: 50px;
+    padding-top: 18px;
+    border-radius: 5px;
+    border: 1px solid #152f91;
+}
+
+.item-3 {
+    width: 377px;
+    height: 50px;
+    padding-top: 18px;
+    border-radius: 5px;
+    border: 1px solid #152f91;
+}
+
+.img-svg {
+    height: 80px;
+}
+
+.advantages__block {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    padding: 30px;
+}
+
+.advantages__img-svg {
+    height: 80px;
+}
+
+.advantages__textBlock {
+    max-width: 372px;
 }
